@@ -1,0 +1,21 @@
+{
+  "name": "ideal-weather",
+  "version": "0.0.1",
+  "description": "Ideal Weather Messaging System",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Justinmemphis/ideal-weather.git"
+  },
+  "keywords": [
+    "weather",
+    "tracking",
+    "forecast"
+  ],
+  "author": "Justin Carter",
+  "license": "MIT"
+}
