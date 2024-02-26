@@ -3,6 +3,7 @@
 const express = require('express');
 const path = require('path');
 const app = express();
+const cors = require('cors');
 
 require('dotenv').config();
 
@@ -11,7 +12,7 @@ app.use(cors());
 app.use(express.static(path.join(__dirname, '/')));
 
 app.get('/', function (req, res) {
-  res.sendFile(path.join(__dirname, '/', 'index.html'));
+  res.sendFile(path.join(__dirname, '/public', 'index.html'));
 });
 
 
