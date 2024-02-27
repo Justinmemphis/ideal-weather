@@ -17,7 +17,7 @@ Steps to build:
 8. Create message to twillio of ideal weather or no good weather found - send every night
 
 ## How it's made:
-JavaScript (nodejs)
+JavaScript - nodejs, expressjs
 
 ## Optimizations:
 ## Lessons Learned:
